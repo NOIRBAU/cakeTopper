@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE TOPPERS</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cupCake_border"></div>
+        <section class="contenedor__login">
+            <div class="contenedor__login--izquierdo">
+                <div>
+                    <span class="fa-solid fa-envelope"></span>
+                    <a href="#">email@caketoppers.com</a>
+                </div>
+                <div>
+                    <span class="fa-solid fa-phone"></span>
+                    <p>+52 1234567890</p>
+                </div>
+            </div>
+            <div class="contenedor__login--derecho">
+                <a href="#">
+                    <span class="fa-solid fa-user"></span>
+                    <span>Mi cuenta</span>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-square-check"></span>
+                    <span>Verificar</span>
+                </a>
+                <a href="#">
+                    <span class="fa-solid fa-lock"></span>
+                    <span>Iniciar/Registrarse</span>
+                </a>
+            </div>
+        </section>
+        <section class="contenedor__buscador-compra">
+            <img src="assets/logo.png" class="logo">
+            <div class="buscador">
+                <input type="text" placeholder="Estoy buscando...">
+                <select id="categorias" name="categorias" class="form-select" required>
+                    <option value="all">Todas las categorías</option>
+                    <option value="">Amor y amistad</option>
+                    <option value="">Bautizo</option>
+                    <option value="">Baby Shower</option>
+                    <option value="">Bodas</option>
+                    <option value="">Cumpleaños</option>
+                    <option value="">Despedida de soltero</option>
+                    <option value="">Halloween</option>
+                    <option value="">Navidad</option>
+                    <option value="">Primera Comunión</option>
+                </select>
+                <button><img src="assets/search.png"></button>
+            </div>
+            <div class="contenedor_compra">
+                <div>
+                    <a href="#" class="contenedor__triple">
+                        <span class="fa-solid fa-heart fa-lg"></span>
+                        <samp class="contenedor__triple-contador">0</samp>
+                        <span class="contenedor__triple-descripcion">Deseados</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="contenedor__triple">
+                        <span class="fa-solid fa-arrows-rotate fa-lg"></span>
+                        <samp class="contenedor__triple-contador">0</samp>
+                        <span class="contenedor__triple-descripcion">Compara</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="contenedor__triple">
+                        <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                        <samp class="contenedor__triple-contador">0</samp>
+                        <span class="contenedor__triple-descripcion">Compra</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar">
+            <ul class="menu--horizontal">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="#">Productos</a>
+                    <ul class="menu--vertical">
+                        <li><a href="#">Cake Topper</a></li>
+                        <li><a href="#">Globos</a></li>
+                        <li><a href="#">Manteles</a></li>
+                        <li><a href="#">Platos</a></li>
+                        <li><a href="#">Popotes</a></li>
+                        <li><a href="#">Servilletas</a></li>
+                        <li><a href="#">Vasos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Colecciones</a>
+                    <ul class="menu--vertical">
+                        <li><a href="#">Animales</a></li>
+                        <li><a href="#">Dinosaurios</a></li>
+                        <li><a href="#">Piratas</a></li>
+                        <li><a href="#">Princesas</a></li>
+                        <li><a href="#">Universo</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Eventos</a>
+                    <ul class="menu--vertical">
+                        <li><a href="#">Amor y amistad</a></li>
+                        <li><a href="#">Baby Shower</a></li>
+                        <li><a href="#">Bodas</a></li>
+                        <li><a href="#">Cumpleaños</a></li>
+                        <li><a href="#">Halloween</a></li>
+                        <li><a href="#">Navidad</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Colores</a>
+                    <ul class="menu--vertical">
+                        <li><a href="#">Amarillo</a></li>
+                        <li><a href="#">Azul</a></li>
+                        <li><a href="#">Blanco</a></li>
+                        <li><a href="#">Dorado</a></li>
+                        <li><a href="#">Naranja</a></li>
+                        <li><a href="#">Negro</a></li>
+                        <li><a href="#">Plateado</a></li>
+                        <li><a href="#">Rojo</a></li>
+                        <li><a href="#">Rosa</a></li>
+                        <li><a href="#">Verde</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="contenedor__carrusel">
+        <div class="carrusel" id="carrusel-slider">
+            <section class="slider__section">
+                <img src="assets/cakeTopper.jpg" alt="cakeTopper">
+            </section>
+            <section class="slider__section">
+                <img src="assets/cakeTopper1.jpg" alt="cakeTopper">
+            </section>
+            <section class="slider__section">
+                <img src="assets/cakeTopper2.jpg" alt="cakeTopper">
+            </section>
+            <section class="slider__section">
+                <img src="assets/cakeTopper3.jpg" alt="cakeTopper">
+            </section>
+        </div>
+        <div class="btn--izquierdo">
+            <span class="fa-solid fa-less-than"></span>
+        </div>
+        <div class="btn--derecho">
+            <span class="fa-solid fa-greater-than"></span>
+        </div>
+    </article>
+    <article class="contenedor__productos-portada">
+        <h1>Los más vendidos</h1>
+        <section class="productos-portada">
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto1.jpg">
+                </div>
+                <h2>Feliz cumpleaños + Nombre</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto2.jpg">
+                </div>
+                <h2>Mi amor</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto3.jpg">
+                </div>
+                <h2>Mi bautizo + Nombre</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto4.jpg">
+                </div>
+                <h2>Felicidades</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto1.jpg">
+                </div>
+                <h2>Feliz cumpleaños + Nombre</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto2.jpg">
+                </div>
+                <h2>Mi amor</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto3.jpg">
+                </div>
+                <h2>Mi bautizo + Nombre</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>
+            <a href="#" class="contenedor__producto">
+                <div class="image">
+                    <img src="assets/producto4.jpg">
+                </div>
+                <h2>Felicidades</h2>
+                <div class="contenedor__precio">
+                    <p class="precio">$100</p>
+                    <span class="fa-solid fa-cart-shopping fa-lg"></span>
+                </div>
+            </a>         
+        </section>
+    </article>
+    <article class="about">
+        <h1 id="about">Sobre nosotros</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat veritatis sint obcaecati laudantium aperiam perferendis dicta esse ipsum consectetur? Similique fuga voluptate atque officia facere sequi quisquam, id a perspiciatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore est quae deserunt, voluptatem inventore consectetur provident nihil hic laboriosam alias dolores voluptatum molestiae similique odio facere delectus quis fugiat?</p>
+    </article>
+    <footer>
+        <section class="contenedor__footer">
+            <div class="columna">
+                <img src="assets/logo.png">
+                <div class="store-datos">
+                    <span class="fa-sharp fa-solid fa-location-dot"></span>
+                    <p>Municipio, estado, México.</p>
+                </div>
+                <div class="store-datos">
+                    <span class="fa-sharp fa-solid fa-phone"></span>
+                    <p>+52 1234567890</p>
+                </div>
+                <div class="store-datos">
+                    <span class="fa-sharp fa-solid fa-envelope"></span>
+                    <a href="#">email@caketoppers.com</a>
+                </div>
+                <div class="store-datos">
+                    <span class="fa-sharp fa-solid fa-earth-americas"></span>
+                    <a href="#">WEB ADRESS</a>
+                </div>
+                <div class="store-datos">
+                    <span class="fa-sharp fa-solid fa-clock"></span>
+                    <p>Lunes - Viernes / 9:00 am - 8:00 pm</p>
+                </div>
+            </div>
+            <div class="columna">
+                <h3>Información y políticas</h3>
+                <a href="#about">Sobre nosotros</a>
+                <a href="#">Políticas de privacidad</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política sobre las cookies</a>
+            </div>
+            <div class="columna">
+                <h3>Nuestros servicios</h3>
+                <a href="#">Servicio al cliente</a>
+                <a href="#">Condiciones de venta</a>
+                <a href="#">Información de entrega</a>
+                <a href="#">Pagos</a>
+                <a href="#">Preguntas frecuentes</a>       
+            </div>
+            <div class="columna">
+                <div class="redes">
+                    <a href="#"><img src="assets/facebook.png"></a>
+                    <a href="#"><img src="assets/instagram.png"></a>
+                    <a href="#"><img src="assets/youtube.png"></a>
+                    <a href="https://wa.me/521234567890?text=urlencodedtext" target="_blank"><img src="assets/whatsapp.png"></a>
+                </div>
+                <h3>Regístrate</h3>
+                <p>Regístrate y recibe notificaciones sobre nuevas actualizaciones de nuestros productos.</p>
+                <input type="email" placeholder="Escribe tu correo electrónico.">
+                <button>ENVIAR</button>
+            </div>
+        </section>
+        <section class="reserved">
+            <p>SOMETHING 2023 All Rights Reserved.</p>
+            <div class="tarjetas">
+                <img src="assets/american.png">
+                <img src="assets/visa.png">
+                <img src="assets/masterCard.png">
+            </div>
+        </section>
+        <div class="cupCake-base_border"></div>
+    </footer>
+    <div class="goTop__container">
+        <div class="goTop__button">
+            <img src="assets/chevron-up-solid.svg" alt="flechaBoton">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/caec77cea8.js" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+</body>
+</html>
